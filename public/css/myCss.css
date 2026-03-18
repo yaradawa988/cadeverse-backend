@@ -1,0 +1,145 @@
+h2 {
+	text-align: center;
+	color: #f7c02a;
+	font-size: x-large;
+	font-family: 'Gill Sans', 'Gill Sans MT',
+	' Calibri', 'Trebuchet MS', 'sans-serif';
+	}
+
+.fakeimg {
+    height: 300px;
+	width: 100%;
+    background: #aaa;
+	}
+
+.logo {
+  padding: 0px;
+  margin: 0px;
+  width: 50px;
+  height: 50px;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+  
+  
+}
+ 
+body {
+	text-align: center;
+	color: black;;
+	font-family: 'Gill Sans';
+     background-color: rgb(245, 181, 165); /* Set the background color to white */
+   color: black; /* Set the font color to black */
+}		
+
+* {
+  box-sizing: border-box;
+}
+
+
+input{
+  width: 80%;
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; 
+}
+
+.btn {
+  width: 40%;
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; 
+}
+
+input:hover{
+  opacity: 1;
+}
+.btn:hover {
+  opacity: 1;
+}
+
+input[type=submit] {
+  background-color: #48D1CC;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+  
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hide-md-lg {
+  display: none;
+}
+
+.bottom-container {
+  text-align: center;
+  background-color: #f3f0f0;
+  border-radius: 0px 0px 4px 4px;
+}
+
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+
+  
+
+  .navbar {
+    background-color: #fcef7c; /* Dark background color */
+}
+
+.navbar-nav .nav-link {
+    color: #050505; /* White text color */
+}
+
+
+.button[type=submit]{
+  background-color: #707272;
+  color: white;
+  cursor: pointer;
+}
+}
+  
+  
